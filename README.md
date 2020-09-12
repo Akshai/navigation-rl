@@ -1,5 +1,5 @@
 # Learning to navigate
-This project is aimed to train an agent to navigate using Reinforcement learning.
+This project is aimed to train an agent to collect yellow bananas using Reinforcement learning.
 
 We use [Double DQN technique](https://arxiv.org/abs/1509.06461) to train the agent.
 
@@ -26,7 +26,7 @@ To set up your python environment to run the code in this repository, follow the
     ```
     
     
-3.  You can download the environment from one of the links below. You need only select the environment that matches your operating system:
+3.  Download the environment from one of the links below. You need to only select the environment that matches your operating system:
 
     Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip) <br />
     Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)<br />
@@ -49,6 +49,9 @@ From the home path **navigation-rl/**, run the following command to visualize th
 ```bash
 python visualize_navigation.py <Path to your trained checkpoint>
 ```
+
+# Video Demo: <br />
+[![Video Demo](https://img.youtube.com/vi/X4UUIjYRwLA/0.jpg)](https://www.youtube.com/watch?v=X4UUIjYRwLA)
 
 
 
