@@ -3,6 +3,21 @@ This project is aimed to train an agent to collect yellow bananas using Reinforc
 
 We use [Double DQN technique](https://arxiv.org/abs/1509.06461) to train the agent.
 
+# Environment details
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+#### *State and action space*:
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+
+        0 - Move forward 
+        1 - Move backward
+        2 - Turn left
+        3 - Turn right
+
+
+
 # Environment Setup
 
 We utilize [Unity Machine Learning Agents](https://github.com/Unity-Technologies/ml-agents) plugin to interact with the environment. 
